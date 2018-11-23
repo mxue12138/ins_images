@@ -1,16 +1,26 @@
 {
-  "name": "test",
+  "name": "ins_images",
   "version": "1.0.0",
-  "description": "",
+  "description": "获取ins上的高清图片，可选择多种运行模式，使用node.js开发",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js",
+    "dev": "node-dev index.js --inspect"
   },
   "keywords": [],
-  "author": "",
+  "author": "mingxue <admin@itmxue.cn>",
   "license": "ISC",
   "dependencies": {
     "axios": "^0.18.0",
     "cheerio": "^1.0.0-rc.2"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mxue12138/ins_images.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mxue12138/ins_images/issues"
+  },
+  "homepage": "https://github.com/mxue12138/ins_images#readme"
 }
